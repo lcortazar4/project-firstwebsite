@@ -9,13 +9,13 @@ const ball=document.createElement('p');
 ball.textContent = "Throw it Already!!!";
 
 
-function alertMe(element) {
+  function alertMe(ball) {
     alert(ball.innerText)
 }
  const friend=document.createElement('p');
 
  friend.textContent = "Hello! I am Nalichenta's best friend"
 
- function alertMe(element) {
+ function alertMe(friend) {
     alert(friend.innerText)
 }
